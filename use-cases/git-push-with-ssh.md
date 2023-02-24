@@ -87,5 +87,12 @@ git commit -am "testing the changes"
 
 git push -u origin master
 ```
+If the above does not work due to permission issue use this
+
+```
+ssh-agent -s
+ssh-add ~/.ssh/id_rsa (id_rsa is your private key)
+
+```
 
 *DONE with Github*
